@@ -1,0 +1,21 @@
+{
+  "pkgver": 1,
+  "type": "app",
+  "name": "themadump",
+  "author": "catmagicspell",
+  "description": "A homebrew that dumps your custom PSP theme into your memory stick.",
+  "tag": "tool",
+  "link": "https://github.com/catmagicspell/themadump",
+  "image": "githubusercontent:StoreStation/themadumpPkg/refs/heads/main/preview.jpg",
+  "version": "1.0",
+  "download": {
+    "remote": "github:catmagicspell/themadump/releases/download/1.0/themadump.zip",
+    "compressed": true,
+    "targets": [
+      {
+        "file": "EBOOT.PBP",
+        "target": "ms0:/PSP/GAME/themadump/EBOOT.PBP"
+      }
+    ]
+  }
+}
